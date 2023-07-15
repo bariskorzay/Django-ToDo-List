@@ -131,4 +131,6 @@ dmypy.json
 .idea
 media
 staticfiles
-static/
+.vscode/*
+
+

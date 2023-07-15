@@ -1,6 +1,10 @@
 {
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.autopep8"
-    },
-    "python.formatting.provider": "none"
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none",
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "liveServer.settings.port": 5501
 }

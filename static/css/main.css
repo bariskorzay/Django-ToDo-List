@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+/* Variables */
+:root {
+    --black: #131313;
+    --light-gray: #6C757D;
+    --white: #ffffff;
+}
+
+/* Body Background */
+
+body {
+    background: url('http://127.0.0.1:8000/static/images/todo-list-backgroud-white.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Remove Effect */
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Task Dimensions */
+.taskDimensions {
+    height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Add Task  */
+
+span.input-group-text {
+    background-color: var(--light-gray) !important;
+    color: var(--white) !important;
+}
+
+.custom-textarea {
+    height: auto !important;
+    resize: vertical;
+}
