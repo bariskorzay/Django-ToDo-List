@@ -1,24 +1,14 @@
-"""
-URL configuration for core project.
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/4.2/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
 from django.contrib import admin
 from django.urls import path
-from todo.views import task_list
+from todo.views import create_task, delete_task, move_task_to_completed, move_completed_to_task
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', task_list, name='task_list'),
+    path('', create_task, name='create_task'),
+    path('delete/<uuid:task_number>/', delete_task, name='delete_task'),
+    path('move_task_to_completed/<uuid:task_number>/',
+         move_task_to_completed, name='move_task_to_completed'),
+    path('move_completed_to_task/<uuid:task_number>/',
+         move_completed_to_task, name='move_completed_to_task'),
+
 ]
