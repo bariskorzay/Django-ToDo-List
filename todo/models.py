@@ -1,5 +1,6 @@
 from django.db import models
 from uuid import uuid4
+from django.contrib.auth.models import User
 
 
 class Task(models.Model):
@@ -23,3 +24,4 @@ class Task(models.Model):
     planned_date = models.DateField(
         null=True, blank=True, verbose_name='Planned Date')
     task_number = models.UUIDField(default=uuid4, unique=True, editable=False)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)

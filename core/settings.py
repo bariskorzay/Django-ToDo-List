@@ -14,6 +14,9 @@ from pathlib import Path
 import environ
 import os
 
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
+
 env = environ.Env()
 environ.Env.read_env('django.env')
 
@@ -58,7 +61,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'todo'
+    'todo',  # Todo App
+    'crispy_forms',  # Django Crispy Forms
+    'crispy_bootstrap5',  # Django Crispy Bootstrap5
 ]
 
 MIDDLEWARE = [

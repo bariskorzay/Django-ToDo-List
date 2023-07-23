@@ -2,7 +2,10 @@
 
 This project is a simple ToDo list application built using Django, JavaScript, HTML, CSS and Bootstrap. Users can add, delete and mark completed tasks.
 
-<a href="https://www.linkpicture.com/view.php?img=LPic64ba2151779c01141019693"><img src="https://www.linkpicture.com/q/django-todo-list-tamamlanmis.jpg" type="image"></a>
+<img src="https://www.linkpicture.com/q/django-todo-list-tamamlanmis.jpg" type="image">
+<img src="https://www.linkpicture.com/q/todo-list-register.jpg" type="image">
+<img src="https://www.linkpicture.com/q/todo-list-login.jpg" type="image">
+
 
 ## Features
 
