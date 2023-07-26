@@ -2,7 +2,7 @@
 
 Django To-Do List is a simple web application that helps users manage their tasks. Users can add new tasks, mark existing tasks as completed, and perform deletion operations.
 
-This project is a simple ToDo list application built using Django, JavaScript, HTML, CSS and Bootstrap. Users can add, delete and mark completed tasks.
+This project is a simple ToDo list application built using Django, JavaScript, HTML, CSS, Bootstrap and PostgreSQL. Users can add, delete and mark completed tasks.
 
 <img src="https://www.linkpicture.com/q/django-todo-list-tamamlanmis.jpg" type="image">
 <img src="https://www.linkpicture.com/q/todo-list-register.jpg" type="image">
