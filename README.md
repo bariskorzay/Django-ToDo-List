@@ -18,10 +18,13 @@ This project is a simple ToDo list application built using Django, JavaScript, H
 
 ## Technologies Used
 - Django
+- PostgreSQL
 - Bootstrap
 - JavaScript
 - HTML
 - CSS
+- SweetAlert2
+- Crispy Forms
 
 ## Installation
 
